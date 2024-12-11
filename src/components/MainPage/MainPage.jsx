@@ -1,15 +1,9 @@
 import "./MainPage.module.css";
 
-const MainPage = () => {
+export const MainPage = () => {
   return (
     <div className="main-page">
-      <header className="main-paige-header">
-        <div className="main-paige-logo">
-          <img src="" alt="Tracker of Water" />
-        </div>
-        <button className="main-signin-button">Sign in</button>
-      </header>
-      <main className="main-paige-content">
+           <main className="main-paige-content">
         <section className="main-paige-info">
           <h1>Water consumption tracker</h1>
           <p>Record daily water intake and track</p>
@@ -46,4 +40,3 @@ const MainPage = () => {
   );
 };
 
-export default MainPage;
