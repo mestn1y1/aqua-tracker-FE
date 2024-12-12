@@ -1,7 +1,6 @@
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import css from "./SignInForm.module.css";
-
 const initialValues = {
   email: "",
   password: "",
@@ -20,7 +19,7 @@ export const SignInForm = () => {
   });
 
   return (
-    <div className={css.container}>
+    <div>
       <Formik
         initialValues={initialValues}
         onSubmit={{}}

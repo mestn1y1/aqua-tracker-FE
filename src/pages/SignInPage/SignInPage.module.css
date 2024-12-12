@@ -4,8 +4,12 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  padding-top: 24px;
 }
 
+.wrapper {
+  padding: 8px 20px;
+}
 @media only screen and (min-resolution: 192dpi) {
   .signIn {
     background-image: url("/images/SignIn/Mobile-Sign-In-2x.png");
@@ -15,7 +19,9 @@
 @media only screen and (min-width: 768px) {
   .signIn {
     background-image: url("/images/SignIn/Tablet-Sign-In.png");
+    padding-top: 40px;
   }
+
   @media only screen and (min-resolution: 192dpi) {
     .signIn {
       background-image: url("/images/SignIn/Tablet-Sign-In-x2.png");
@@ -27,7 +33,9 @@
   .signIn {
     height: 800px;
     background-image: url("/images/SignIn/Desc-Sign-In.png");
+    padding-top: 40px;
   }
+
   @media only screen and (min-resolution: 192dpi) {
     .signIn {
       background-image: url("/images/SignIn/Desc-Sign-In-x2.png");

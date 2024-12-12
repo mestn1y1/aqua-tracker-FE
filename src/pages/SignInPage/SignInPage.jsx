@@ -4,7 +4,7 @@ import css from "./SignInPage.module.css";
 export const SignInPage = () => {
   return (
     <section className={css.signIn}>
-      <div className="container">
+      <div className={css.wrapper}>
         <h3>Sign In</h3>
         <SignInForm />
       </div>

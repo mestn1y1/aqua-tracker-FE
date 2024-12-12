@@ -15,18 +15,13 @@
   --secondary-color-4: #ff9d43;
   --secondary-color-5: #d7e3ff;
 }
-body {
-  margin: 16px 0;
-}
 
 .container {
   width: 320px;
   padding: 8px 20px;
+  margin: 0 auto;
 }
 @media only screen and (min-width: 768px) {
-  body {
-    margin: 32px 0;
-  }
   .container {
     width: 768px;
     padding: 16px 32px;
@@ -34,13 +29,8 @@ body {
 }
 
 @media (min-width: 1440px) {
-  body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
   .container {
-    min-width: 1440px;
+    width: 1216px;
     padding: 18px 12px;
   }
 }
