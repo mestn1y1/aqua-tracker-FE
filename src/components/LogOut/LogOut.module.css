@@ -1,0 +1,121 @@
+.logOutContainer {
+  position:relative;
+  background: #ffff;
+  border-radius: 10px;
+  padding: 32px 24px;
+  width: 280px; /* Default for Mobile */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: start;
+}
+@media (min-width: 768px) {
+  .logOutContainer {
+    width: 592px;
+    height: 208px;
+    padding: 32px 24px;
+  }
+}
+
+.logOutTitle{
+  font-size: 26px;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.logOutText{
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+
+.btnContainer{
+  display: flex;
+  justify-content:flex-start;
+
+}
+
+@media (max-width: 1440px){
+  .btnContainer{
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width: 768px){
+
+  .btnContainer{
+    justify-content: flex-end;
+    flex-direction: column;
+
+  }
+
+}
+
+.cancelBtn {
+  width: 160px;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  background: #e4e9f2;
+  color: #407BFF;
+  margin-right: 24px;
+  padding: 10px 30px 10px 30px;
+
+}
+.cancelBtn:hover {
+  background: #d0d8e9;
+}
+
+.logoutBtn {
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  background: #EF5050;
+  color: #ffff;
+  padding: 10px 30px 10px 30px;
+  width: 160px;
+}
+
+.logoutBtn:hover {
+  background: #EF5050
+}
+
+.closeBtn{
+  position: absolute;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color:#407BFF;
+  top: 22px;
+  right: 16px;
+  padding: 0;
+  font-size: 44px;
+}
+
+@media (max-width: 768px){
+
+  .cancelBtn{
+    margin-right: 0;
+    margin-bottom: 24px;
+    width: 232px;
+
+  }
+  .logoutBtn{
+    width: 232px;
+  }
+
+  .closeBtn{
+    font-size: 34px;
+  }
+
+}
+
+
+
